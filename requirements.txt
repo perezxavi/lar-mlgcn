@@ -1,0 +1,7 @@
+numpy>=1.23
+torch>=2.0
+scikit-learn>=1.2
+pandas>=1.5
+tqdm>=4.65
+tqdm-joblib>=0.0.4
+joblib>=1.2

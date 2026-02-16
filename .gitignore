@@ -1,0 +1,36 @@
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build/distribution
+build/
+dist/
+*.egg-info/
+
+# Test/coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local outputs
+preds_test.csv
+preds_thresholds_test.json
+
+# Local temporary experiment folders
+tmp_mlgcn_*/
+
+# Large local datasets/artifacts
+datasets/
+*.zip
+

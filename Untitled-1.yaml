@@ -1,0 +1,72 @@
+ - cooking: last_k=400, sparse=False
+   Ya existen predicciones y ground truth, se omite.
+
+== Resultados ==
+ subset_accuracy: 0.021449
+    hamming_loss: 0.010920
+ precision_micro: 0.210330
+    recall_micro: 0.351665
+        f1_micro: 0.263226
+ precision_macro: 0.162945
+    recall_macro: 0.210184
+        f1_macro: 0.166500
+ - flags: last_k=7, sparse=False
+   Ya existen predicciones y ground truth, se omite.
+
+== Resultados ==
+ subset_accuracy: 0.131579
+    hamming_loss: 0.266917
+ precision_micro: 0.720588
+    recall_micro: 0.748092
+        f1_micro: 0.734082
+ precision_macro: 0.693137
+    recall_macro: 0.668169
+        f1_macro: 0.667861
+ - water-quality-nom: last_k=14, sparse=False
+   Ya existen predicciones y ground truth, se omite.
+
+== Resultados ==
+ subset_accuracy: 0.000000
+    hamming_loss: 0.395396
+ precision_micro: 0.473326
+    recall_micro: 0.776536
+        f1_micro: 0.588152
+ precision_macro: 0.480170
+    recall_macro: 0.775394
+        f1_macro: 0.577805
+ - birds: last_k=19, sparse=False
+   Ya existen predicciones y ground truth, se omite.
+
+== Resultados ==
+ subset_accuracy: 0.382812
+    hamming_loss: 0.069490
+ precision_micro: 0.331250
+    recall_micro: 0.460870
+        f1_micro: 0.385455
+ precision_macro: 0.278336
+    recall_macro: 0.294887
+        f1_macro: 0.260383
+ - CAL500: last_k=174, sparse=False
+>> Ejecutando: C:\Users\perez\anaconda3\python.exe run_mlgcn.py tmp_mlgcn_CAL500\train_tmp.csv tmp_mlgcn_CAL500\test_tmp.csv 174 --output-preds tmp_mlgcn_CAL500\predictions.csv
+[INFO] Usando dispositivo: cuda
+[001/100] loss=1.1818 | val AUROC(μ)=0.5309
+[010/100] loss=0.8930 | val AUROC(μ)=0.6584
+[020/100] loss=0.6800 | val AUROC(μ)=0.6935
+[030/100] loss=0.5671 | val AUROC(μ)=0.7096
+[040/100] loss=0.4969 | val AUROC(μ)=0.7152
+[050/100] loss=0.4431 | val AUROC(μ)=0.7187
+[060/100] loss=0.4024 | val AUROC(μ)=0.7159
+[070/100] loss=0.3795 | val AUROC(μ)=0.7213
+[080/100] loss=0.3660 | val AUROC(μ)=0.7248
+[090/100] loss=0.3633 | val AUROC(μ)=0.7272
+[100/100] loss=0.3589 | val AUROC(μ)=0.7262
+
+== Resultados ==
+ subset_accuracy: 0.000000
+    hamming_loss: 0.310575
+ precision_micro: 0.282548
+    recall_micro: 0.712180
+        f1_micro: 0.404584
+ precision_macro: 0.160717
+    recall_macro: 0.398765
+        f1_macro: 0.215416
