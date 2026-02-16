@@ -95,7 +95,7 @@ python -m unittest test_mlgcn_classifier.py
 En Windows con Anaconda:
 
 ```powershell
-& C:/Users/perez/anaconda3/python.exe -m unittest test_mlgcn_classifier.py
+python.exe -m unittest test_mlgcn_classifier.py
 ```
 
 ## Estructura del Repositorio
